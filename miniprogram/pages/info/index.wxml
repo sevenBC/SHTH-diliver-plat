@@ -1,0 +1,55 @@
+<!--pages/info/index.wxml-->
+<view class="page_container">
+  <view class="head_title">编辑信息</view>
+  
+  <view class="form_box">
+   <form>
+      <text>用户名</text>
+      <input bindblur="sync_input" id="user_name" class="in_box" value="{{user_name}}"></input>
+   </form>
+  </view>
+  
+  <view class="form_box">
+    <form>
+      <text>联系方式1</text>
+      <input bindblur="sync_input" id="contact_1" class="in_box" value="{{contact_1}}"></input>
+    </form>
+    <form>
+      <text>联系方式2</text>
+      <input bindblur="sync_input" id="contact_2" class="in_box" value="{{contact_2}}"></input>
+    </form>
+    <form>
+      <text>联系方式3</text>
+      <input bindblur="sync_input" id="contact_3" class="in_box" value="{{contact_3}}"></input>
+    </form>
+  </view>
+
+  <view class="form_box">
+    <form>
+      <text>地址1</text>
+      <input bindblur="sync_input" id="address_1" class="in_box" value="{{address_1}}"></input>
+    </form>
+    <form>
+      <text>地址2</text>
+      <input bindblur="sync_input" id="address_2" class="in_box" value="{{address_2}}"></input>
+    </form>
+    <form>
+      <text>地址3</text>
+      <input bindblur="sync_input" id="address_3" class="in_box" value="{{address_3}}"></input>
+    </form>
+    <form>
+      <text>地址4</text>
+      <input bindblur="sync_input" id="address_4" class="in_box" value="{{address_4}}"></input>
+    </form>
+    <form>
+      <text>地址5</text>
+      <input bindblur="sync_input" id="address_5" class="in_box" value="{{address_5}}"></input>
+    </form>
+  </view>
+
+ <view class="sub_button">
+  <button style="color: white;" bindtap="update_info">确认</button>
+</view>
+
+</view>
+

@@ -1,0 +1,34 @@
+/**index.wxss**/
+
+page {
+  display: flex;
+  padding-top: 54rpx;
+  background-color: rgba(175, 252, 207, 0.801);
+  padding-bottom: 60rpx;
+}
+
+.page_container{
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.block{
+  display:flex;
+  align-items: center;
+  width: 500rpx;
+  height: 500rpx;
+}
+
+.img{
+  height: 100%;
+  border-radius: 50%;
+}
+
+.title{
+  margin: 5%;
+  font-size: 50rpx;
+  font-weight: 500;
+}

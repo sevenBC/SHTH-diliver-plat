@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class="page_container">
+  <view class="block">
+    <image class="img" mode="aspectFit" src='/images/SHTU.png' > </image>
+  </view>
+  <view class='title'> 欢迎使用上科大互助送餐平台 </view>
+
+</view>
